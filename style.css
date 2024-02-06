@@ -1,0 +1,98 @@
+body {
+    padding: 0px;
+    margin: 0px
+}
+
+
+
+.first-header {
+    border: 4px solid red;
+    height: 140px;
+    display: flex;
+    flex-direction:column;
+
+}
+
+.uli {
+    border: 4px solid green;
+    flex:auto;
+    margin: 0px 350px;
+}
+
+.first-cont {
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-cont {
+    height: 104px;
+    display: flex;
+}
+
+.into-cont-1 {
+    /*border: 2px solid brown;*/
+    width:700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.into-cont-2 {
+    /*border: 2px solid brown;*/
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+/*.place {
+    height: 20px auto;
+    width: 20px;
+    border: 2px solid pink;
+
+}*/
+
+.place-image {
+    width: 15px;
+    height: 15px;
+}
+
+.number-img {
+    width: 15px;
+    height: 15px;
+}
+
+.separacion-1 {
+    display: flex;
+    gap: 5px;
+}
+
+.separacion-2 {
+    display: flex;
+    gap: 5px;
+}
+
+.twiter-img {
+    height: 15px;
+    width: 15px;
+}
+
+.fb-img {
+    height: 15px;
+    width: 15px;
+}
+
+.sergio {
+    color:rgb(96, 96, 96)
+}
+
+.logo-empresa {
+    height: 80px;
+    width: auto;
+}
+
+.logo-contenedor {
+    border: 3px solid blue;
+    display: flex;
+    align-items: center;
+}
