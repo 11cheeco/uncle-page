@@ -6,17 +6,20 @@ body {
 
 
 .first-header {
-    border: 4px solid red;
+    /*border: 4px solid red;*/
     height: 140px;
     display: flex;
     flex-direction:column;
+    flex: auto;
+    padding-top: 10px;
 
 }
 
 .uli {
-    border: 4px solid green;
+    /*border: 4px solid green;*/
     flex:auto;
     margin: 0px 350px;
+    display: flex;
 }
 
 .first-cont {
@@ -28,6 +31,7 @@ body {
 .second-cont {
     height: 104px;
     display: flex;
+    justify-content: space-between;
 }
 
 .into-cont-1 {
@@ -55,6 +59,7 @@ body {
 .place-image {
     width: 15px;
     height: 15px;
+    display: flex;
 }
 
 .number-img {
@@ -92,7 +97,170 @@ body {
 }
 
 .logo-contenedor {
-    border: 3px solid blue;
+    /*border: 3px solid blue;*/
     display: flex;
     align-items: center;
+}
+
+.consultas {
+    /*border: 3px solid pink;*/
+    display: flex;
+    gap: 30px;
+}
+
+.carta-texto {
+    /*border: 3px solid skyblue;*/
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.carta-imagen {
+    height: 40px;
+    width: auto;
+}
+
+.into-carta ,
+.into-texto {
+    /*border: 3px solid fuchsia;*/
+}
+
+.boton-brochure {
+    border-radius: 30px;
+    padding: 20px 30px;
+    background-color: rgb(104, 98, 78);
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.texto-consultas {
+    font-weight: bold;
+}
+
+.into-carta {
+    display: flex;
+    align-items: flex-end;
+}
+
+.barra-de-navegacion {
+    height: 80px;
+    /*border: 4px solid black;*/
+    background-color: rgb(3, 30, 69);
+}
+
+.contenedor-reducido {
+    /*border: 2px solid darkorange;*/
+    height: 76px;
+    margin: 0px 350px;
+    display: flex;
+    gap: 125px;
+}
+
+.reducido-into,
+.central-contenedor { 
+    /*border: 3px solid darkgreen;*/
+    height: 70px;
+    display: flex;
+    flex-basis: auto;
+}
+
+.reducido-into {
+    width: 850px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:20px;
+}
+
+.reducido-into div {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.central-contenedor {
+    display: flex;
+    justify-content: flex-end;
+    width: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+}
+
+/*.central-contenedor {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bolder;
+    justify-content: space-around;*/
+    
+    
+}
+
+.numero-grande {
+    /*font-size: 30px;*/
+}
+
+/*.central-contenedor div {
+    border: 2px solid fuchsia;
+
+}*/
+
+.nuestra-central {
+    font-size: 18px;
+}
+
+.numero-grande {
+    font-size: 25px;
+}
+
+.mina-imagen-contenedor {
+    /*border: 4px solid green;*/
+    height: 430px;
+    display: flex;
+}
+
+.imagen-de-mina,
+.imagen-de-mina2,
+.imagen-de-mina3,
+.imagen-de-mina4 {
+    height: 430px;
+    width: 480px;
+}
+
+.mina-imagen-contenedor div {
+    flex: auto;
+}
+
+.contenedor-principal-servicios {
+    border: 4px solid darkred;
+    height: 550px;
+}
+
+.contenedor-con-margenes {
+    margin: 0px 350px;
+    border: 3px solid teal;
+    height: 544px;
+}
+
+.contenedor-int-titulo-texto {
+ border: 3px solid slateblue;
+}
+
+.titulo-nuestros-servicios {
+    font-size: 28px;
+    font-weight: 700;
+    color:rgb(1, 30, 71);
+    text-align: center;
+}
+
+.texto-dentro-servicios {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(96, 96, 96);
+    text-align: center;
 }
